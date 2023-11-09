@@ -1,0 +1,50 @@
+.table-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.table-game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  margin: 40px auto;
+}
+.button-game {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.button-game:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (max-width: 600px) {
+  .button-game {
+    padding: 0.25em 0.75em;
+  }
+}
+
+@media (600px< width <1024px) {
+  .button-game {
+    padding: 0.25em 0.75em;
+  }
+}

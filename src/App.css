@@ -1,0 +1,34 @@
+.main-game {
+  background-color: rgb(100, 84, 194);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.table-game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-game {
+    width: 320px;
+  }
+}
+
+@media only screen and (600px<= width <=1024px) {
+  .table-game {
+    width: 700px;
+  }
+}
